@@ -7,3 +7,12 @@ This repository hosts community-contributed [Kestrel](https://github.com/opencyb
 - [The introduction talk at RSA 2021](https://www.rsaconference.com/Library/presentation/USA/2021/The%20Game%20of%20Cyber%20Threat%20Hunting%20The%20Return%20of%20the%20Fun)
 - [The RSA demo (15 min)](https://www.youtube.com/watch?v=tASFWZfD7l8)
 - [Kestrel technical blogs at OCA](https://opencybersecurityalliance.org/posts/)
+
+### How to Display Kestrel Huntbook With Syntax Highlight
+
+```shell
+$ pip install -U pip setuptools wheel
+$ pip install kestrel-jupyter
+$ python -m kestrel_jupyter_kernel.setup
+```
+Then clone this repo and run `jupyter notebook` to open any huntbook. Note that _JupyterLab_ (Jupyter’s next-generation notebook interface) is not fully supported yet.
