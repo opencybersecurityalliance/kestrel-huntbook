@@ -8,6 +8,10 @@ This repository hosts community-contributed [Kestrel](https://github.com/opencyb
 - [The RSA demo (15 min)](https://www.youtube.com/watch?v=tASFWZfD7l8)
 - [Kestrel technical blogs at OCA](https://opencybersecurityalliance.org/posts/)
 
+### Binder (Under Testing)
+
+https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=huntbooks
+
 ### How to Display Kestrel Huntbook With Syntax Highlighting
 
 ```shell
