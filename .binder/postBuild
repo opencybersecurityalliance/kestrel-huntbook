@@ -1,1 +1,7 @@
 python -m kestrel_jupyter_kernel.setup
+
+git clone https://github.com/opencybersecurityalliance/kestrel-analytics.git
+
+mkdir -p .config/kestrel
+
+cp kestrel-analytics/pythonanalytics_sample.yaml .config/kestrel/pythonanalytics.yaml

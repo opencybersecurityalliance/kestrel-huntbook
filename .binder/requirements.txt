@@ -1,1 +1,19 @@
 kestrel-jupyter
+
+# analytics::dataexfiltration
+flask
+flask-cors
+tabulate
+
+# analytics::log4shell
+urllib3
+
+# analytics::piniponmap
+geoip2
+folium
+
+# analytics::sklearn-cluster
+scikit-learn
+
+# analytics::suspiciousscoring
+business-rules
