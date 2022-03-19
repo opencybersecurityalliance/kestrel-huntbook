@@ -5,7 +5,7 @@ For Kestrel analytics, visit the sister repo [kestrel-analytics](https://github.
 
 ### Learn and play with the hunt books
 _This is an experiment feature with binder; waiting for the canned data to be released to make them really executable._
-- [Kestrel tutorial hunt books](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=tutorial)
+- [Tutorial hunt books](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=tutorial)
 - [Real-world hunt books](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=huntbooks)
 
 ### Deploy Kestrel to your environment to use the hunt books
