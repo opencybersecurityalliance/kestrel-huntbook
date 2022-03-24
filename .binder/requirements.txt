@@ -17,3 +17,6 @@ scikit-learn
 
 # analytics::suspiciousscoring
 business-rules
+
+# analytics::attribute-plot
+matplotlib
