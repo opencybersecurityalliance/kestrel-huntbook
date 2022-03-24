@@ -1,6 +1,6 @@
 python -m kestrel_jupyter_kernel.setup
 
-git clone git@github.com:opencybersecurityalliance/data-bucket-kestrel.git
+git clone https://github.com/opencybersecurityalliance/data-bucket-kestrel.git
 
 cp data-bucket-kestrel/stix-bundles/lab101.json /tmp/
 
