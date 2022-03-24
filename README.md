@@ -1,10 +1,8 @@
 # Community-Contributed Kestrel Huntbooks
 
-This repository hosts community-contributed [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang) huntflows/huntbooks/patterns.\
-For Kestrel analytics, visit the sister repo [kestrel-analytics](https://github.com/opencybersecurityalliance/kestrel-analytics/).
+This repository hosts community-contributed [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang) huntflows/huntbooks/patterns.
 
 ### Learn and play with the hunt books
-_This is an experiment feature with binder; waiting for the canned data to be released to make them really executable._
 - [Tutorial hunt books](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=tutorial)
 - [Real-world hunt books](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=huntbooks)
 
