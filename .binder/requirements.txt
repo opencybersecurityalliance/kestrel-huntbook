@@ -14,6 +14,7 @@ folium
 
 # analytics::sklearn-cluster
 scikit-learn
+gower
 
 # analytics::suspiciousscoring
 business-rules
