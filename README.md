@@ -10,7 +10,7 @@ Follow the links to launch a complete Kestrel runtime with Jupyter front-end usi
 
 ## Deploy Kestrel to your environment to use the hunt books
 - [What is Kestrel?](https://kestrel.readthedocs.io/en/latest/overview/)
-- [Install/Setup Kestrel](https://kestrel.readthedocs.io/en/latest/installation/index.html)
+- [Install/Setup Kestrel](https://kestrel.readthedocs.io/en/latest/installation/)
 - [Hunting stack setup example](https://opencybersecurityalliance.org/posts/kestrel-2021-07-26/)
 
 ## How to Contribute
