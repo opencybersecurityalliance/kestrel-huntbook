@@ -9,7 +9,7 @@ Follow the links to launch a complete Kestrel runtime with Jupyter front-end usi
 - [Real-world huntbooks](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=huntbooks) (the Kestrel cloud sandbox opening the [huntbooks](https://github.com/opencybersecurityalliance/kestrel-huntbook/tree/main/huntbooks) directory)
 
 ## Deploy Kestrel to your environment to use the hunt books
-- [What is Kestrel?](https://kestrel.readthedocs.io/en/latest/overview.html)
+- [What is Kestrel?](https://kestrel.readthedocs.io/en/latest/overview/)
 - [Install/Setup Kestrel](https://kestrel.readthedocs.io/en/latest/installation/index.html)
 - [Hunting stack setup example](https://opencybersecurityalliance.org/posts/kestrel-2021-07-26/)
 
