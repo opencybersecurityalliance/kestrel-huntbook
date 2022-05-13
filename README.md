@@ -7,7 +7,7 @@ Basic information about Kestrel:
 - [What is Kestrel?](https://kestrel.readthedocs.io/en/latest/overview/)
 - [Kestrel main repo](https://github.com/opencybersecurityalliance/kestrel-lang)
 
-There are two ways to view/execute/use huntbooks in this repo: launch a Kestrel cloud sandbox, or execute a hunt in your own Kestrel deployment.
+Two ways to view/execute/use huntbooks in this repo: launch a Kestrel cloud sandbox, or execute a hunt in your own hunting environment with Kestrel deployed.
 
 ### Launch a Kestrel cloud sandbox
 
