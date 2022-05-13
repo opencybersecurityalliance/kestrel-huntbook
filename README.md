@@ -37,7 +37,7 @@ Examples of hunting stack setup:
 
 ### 3. Open huntbook files on GitHub directly
 
-You can open `*.ipynb` huntbook files on GitHub. This is a fallback option if [Kestrel cloud sandbox](#1-launch-a-kestrel-cloud-sandbox) is not working. This option only allows you to view huntbooks, but not re-execute or adjust any hunt steps. In addition, Kestrel syntax highlight is not supported with this approach, so this approach should only be used when other options are not avaliable.
+You can open `*.ipynb` huntbook files on GitHub. This is a fallback option if [Kestrel cloud sandbox](#1-launch-a-kestrel-cloud-sandbox) is not working. This option only allows you to view huntbooks, but not re-execute or adjust any hunt steps. In addition, Kestrel syntax highlight is not supported with this approach, and this is just a fallback approach when other options are not avaliable.
 
 ## How to Contribute
 
