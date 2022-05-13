@@ -8,11 +8,8 @@ Basics about Kestrel:
 - [Kestrel main repo](https://github.com/opencybersecurityalliance/kestrel-lang)
 
 Three ways to view/execute/use huntbooks in this repo:
-- Play with the huntbooks in a Kestrel cloud sandbox.
-- Execute a hunt in your own hunting environment with Kestrel deployed.
-- Open `*.ipynb` huntbook files directly on GitHub.
 
-### Launch a Kestrel cloud sandbox
+### 1. Launch a Kestrel cloud sandbox
 
 Use the following links to launch a Kestrel sandbox in public cloud to view, execute, and play with the huntbooks.
 
@@ -25,7 +22,7 @@ This cloud sandbox environment is managed by [binder](https://mybinder.org/), an
 
 The Kestrel sandbox will launch Kestrel runtime with all analytics in the [kestrel-lanalytics](https://github.com/opencybersecurityalliance/kestrel-analytics/) repo. [GeoLite2 data](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data?lang=en) from MaxMind, which is copied into your sandbox instance to run analytics hunt step [piniponmap](https://github.com/opencybersecurityalliance/kestrel-analytics/tree/release/analytics/piniponmap), is subject to [MaxMind license](https://www.maxmind.com/en/geolite2/eula). Please confirm that your uses comply with those limitations, which include CC-BY-SA-4 terms, some prohibited uses, and an indemnity in favor of MaxMind. MaxMind's license terms are separate from [OASIS' license for Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang/blob/develop/LICENSE.md).
 
-### Deploy Kestrel in your hunting environment
+### 2. Deploy Kestrel in your hunting environment
 
 After viewing and playing huntbooks in the Kestrel cloud sandbox environment, it is recommended to deploy Kestrel in your orgainzation's hunting environment (in your cloud or on-premises) to perform hunts where no data will be transmitted outside your orgainzation networks.
 
@@ -38,9 +35,9 @@ Examples of hunting stack setup:
 - [Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-2021-07-26/)
 - [Sysflow/Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-sysflow-bheu21-open-hunting-stack/)
 
-### Open huntbook files on GitHub directly
+### 3. Open huntbook files on GitHub directly
 
-You can open `*.ipynb` huntbook files directly on GitHub. This is a fallback option if binder (Kestrel cloud sandbox) is not working. This option only allows you to view huntbooks, but not re-execute or adjust any hunt steps. In addition, Kestrel syntax highlight is not supported in this approach, and this is not a recommended way of interacting with huntbooks.
+You can open `*.ipynb` huntbook files on GitHub. This is a fallback option if binder (Kestrel cloud sandbox) is not working. This option only allows you to view huntbooks, but not re-execute or adjust any hunt steps. In addition, Kestrel syntax highlight is not supported in this approach, and this approach should only be used when other options are not avaliable.
 
 ## How to Contribute
 
