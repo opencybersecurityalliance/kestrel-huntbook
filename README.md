@@ -7,7 +7,10 @@ Basics about Kestrel:
 - [What is Kestrel?](https://kestrel.readthedocs.io/en/latest/overview/)
 - [Kestrel main repo](https://github.com/opencybersecurityalliance/kestrel-lang)
 
-Two ways to view/execute/use huntbooks in this repo: launch a Kestrel cloud sandbox, or execute a hunt in your own hunting environment with Kestrel deployed.
+Three ways to view/execute/use huntbooks in this repo:
+- Play with the huntbooks in a Kestrel cloud sandbox.
+- Execute a hunt in your own hunting environment with Kestrel deployed.
+- Open `*.ipynb` huntbook files directly on GitHub.
 
 ### Launch a Kestrel cloud sandbox
 
@@ -34,6 +37,10 @@ How to deploy Kestrel:
 Examples of hunting stack setup:
 - [Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-2021-07-26/)
 - [Sysflow/Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-sysflow-bheu21-open-hunting-stack/)
+
+### Open huntbook files on GitHub directly
+
+You can open `*.ipynb` huntbook files directly on GitHub. This is a fallback option if binder (Kestrel cloud sandbox) is not working. This option only allows you to view huntbooks, but not re-execute or adjust any hunt steps. In addition, Kestrel syntax highlight is not supported in this approach, and this is not a recommended way of interacting with huntbooks.
 
 ## How to Contribute
 
