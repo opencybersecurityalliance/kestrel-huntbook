@@ -1,3 +1,6 @@
+# git lfs for cloning data-bucket-kestrel.git
+git-lfs
+
 # analytics::domainnamelookup
 dnsutils
 whois
