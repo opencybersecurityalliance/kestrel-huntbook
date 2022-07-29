@@ -34,10 +34,12 @@ rm -rf data-bucket-kestrel
 
 mkdir -p ~/.config/kestrel
 
-mv stixshifter.yaml ~/.config/kestrel/
+mv config/stixshifter.yaml ~/.config/kestrel/
 ln -s ~/.config/kestrel/stixshifter.yaml huntbooks/stixshifter.yaml
 ln -s ~/.config/kestrel/stixshifter.yaml tutorial/stixshifter.yaml
 ln -s ~/.config/kestrel/stixshifter.yaml blackhat22/stixshifter.yaml
+
+rmdir config
 
 cp kestrel-analytics/pythonanalytics_sample.yaml ~/.config/kestrel/pythonanalytics.yaml
 
