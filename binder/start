@@ -4,6 +4,4 @@ pushd /tmp/stix-bundles
 python -m http.server 6001 &
 popd
 
-export KESTREL_STIXSHIFTER_CONFIG=./stixshifter.yaml
-
 exec "$@"

@@ -1,6 +1,18 @@
+################################
+# 1. Setup Git LFS
+################################
+
 git lfs install
 
+################################
+# 2. Setup Kestrel Kernel
+################################
+
 python -m kestrel_jupyter_kernel.setup
+
+################################
+# 3. Obtain Data
+################################
 
 git clone https://github.com/opencybersecurityalliance/data-bucket-kestrel.git
 
@@ -16,8 +28,21 @@ cp data-bucket-kestrel/GeoLite2/GeoLite2-City.mmdb kestrel-analytics/analytics/p
 
 rm -rf data-bucket-kestrel
 
-mkdir -p .config/kestrel
+################################
+# 4. Setup Configurations
+################################
 
-cp kestrel-analytics/pythonanalytics_sample.yaml .config/kestrel/pythonanalytics.yaml
+mkdir -p ~/.config/kestrel
+
+mv stixshifter.yaml ~/.config/kestrel/
+ln -s ~/.config/kestrel/stixshifter.yaml huntbooks/stixshifter.yaml
+ln -s ~/.config/kestrel/stixshifter.yaml tutorial/stixshifter.yaml
+ln -s ~/.config/kestrel/stixshifter.yaml blackhat22/stixshifter.yaml
+
+cp kestrel-analytics/pythonanalytics_sample.yaml ~/.config/kestrel/pythonanalytics.yaml
+
+################################
+# 5. Trust All Notebooks
+################################
 
 jupyter trust */*.ipynb
