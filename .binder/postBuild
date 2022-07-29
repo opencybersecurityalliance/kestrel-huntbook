@@ -4,7 +4,11 @@ python -m kestrel_jupyter_kernel.setup
 
 git clone https://github.com/opencybersecurityalliance/data-bucket-kestrel.git
 
-cp data-bucket-kestrel/stix-bundles/*.json /tmp/
+# for generic huntbooks like BH22
+cp -r data-bucket-kestrel/stix-bundles /tmp/
+
+# for the tutorial
+cp data-bucket-kestrel/stix-bundles/lab101.json /tmp/
 
 git clone https://github.com/opencybersecurityalliance/kestrel-analytics.git
 
