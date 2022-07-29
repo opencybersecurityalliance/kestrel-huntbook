@@ -15,7 +15,7 @@ Use the following links to launch a Kestrel sandbox in public cloud to view, exe
 
 - [Tutorial huntbooks](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=tutorial) (the Kestrel cloud sandbox opening the [tutorial](https://github.com/opencybersecurityalliance/kestrel-huntbook/tree/main/tutorial) directory)
 - [Real-world huntbooks](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=huntbooks) (the Kestrel cloud sandbox opening the [huntbooks](https://github.com/opencybersecurityalliance/kestrel-huntbook/tree/main/huntbooks) directory)
-- [Black Hat USA 2022 huntbooks](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=blackhst22) (the Kestrel cloud sandbox opening the [blackhat22](https://github.com/opencybersecurityalliance/kestrel-huntbook/tree/main/blackhat22) directory)
+- [Black Hat USA 2022 huntbooks](https://mybinder.org/v2/gh/opencybersecurityalliance/kestrel-huntbook/HEAD?filepath=blackhat22) (the Kestrel cloud sandbox opening the [blackhat22](https://github.com/opencybersecurityalliance/kestrel-huntbook/tree/main/blackhat22) directory)
 
 Beyond playing with the huntbooks, you can perform hunts directly in the sandbox. After launching your sandbox instance, you can connect your own data sources by creating a [stix-shifter interface config file](https://kestrel.readthedocs.io/en/latest/source/kestrel_datasource_stixshifter.interface.html) named `stixshifter.yaml` using the _text editor_ in the Jupyter UI. Any huntbook in the same directory in your sandbox instance will be able to use data sources defined in the `stixshifter.yaml`.
 
