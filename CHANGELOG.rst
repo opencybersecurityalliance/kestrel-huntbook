@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on `Keep a Changelog`_.
 
+0.1.2 (2022-10-25)
+==================
+
+Changed
+-------
+
+- update blackhat and tutorial huntbooks with kestrel-lang 1.5.1
+
 0.1.1 (2022-09-26)
 ==================
 
