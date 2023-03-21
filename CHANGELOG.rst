@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on `Keep a Changelog`_.
 
+0.1.4 (2023-03-21)
+==================
+
+Changed
+-------
+
+- link update for Kestrel doc 1.5
+
 0.1.3 (2023-01-11)
 ==================
 
