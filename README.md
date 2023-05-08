@@ -33,8 +33,9 @@ How to deploy Kestrel:
 - [Setup Kestrel analytics](https://kestrel.readthedocs.io/en/latest/installation/analytics.html)
 
 Examples of hunting stack setup:
-- [Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-2021-07-26/)
-- [Sysflow/Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/posts/kestrel-sysflow-bheu21-open-hunting-stack/)
+- [Docker services for Kestrel core, Elasticsearch, and Kestrel analytics](https://github.com/opencybersecurityalliance/hunting-stack-testing)
+- [Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/huntbook-persistent-threat-discovery-kestrel/)
+- [Sysflow/Sysmon + Elasticsearch + Kestrel](https://opencybersecurityalliance.org/kestrel-sysflow-open-hunting-stack/)
 
 ### 3. Open huntbook files on GitHub directly
 
