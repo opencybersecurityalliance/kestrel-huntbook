@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on `Keep a Changelog`_.
 
+0.1.6 (2023-06-14)
+==================
+
+Changed
+-------
+
+- refresh binder service with kestrel-lang 1.7.0 for PyPI website layout update
+
 0.1.5 (2023-06-14)
 ==================
 
